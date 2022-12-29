@@ -1,0 +1,17 @@
+{
+  "type":"workspace",
+  "questions":[
+    {
+      "text":"1. Show customers from the state of Utah.",
+      "script":"SELECT * FROM ...",
+      "connectionName":"Redcat Shoes",
+      "sheetname":"q1"
+    },
+    {
+      "text":"2. Show Employees from Los Angeles.",
+      "script":"SELECT * FROM ...",
+      "connectionName":"Redcat Shoes",
+      "sheetname":"q2"
+    }
+  ]
+}
