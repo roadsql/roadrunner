@@ -45,11 +45,13 @@ function amend_sql(fragment) {
    //console.log("sql", sql.value)
    //console.log("fragment", fragment)
    if(most_recent_query==='' && monaco.editor.getModels()[0].getValue()!==""){
-    alert("Clicking on the diagram is only allowed when you start with a blank query.")
+    //alert("Clicking on the diagram is only allowed when you start with a blank query.")
+    insert_at_cursor(fragment)
     return
    }
    if(!(most_recent_query===monaco.editor.getModels()[0].getValue()||monaco.editor.getModels()[0].getValue()==="")){
-    alert("Clicking on the diagram is disabled once you change the query by hand.")
+    //alert("Clicking on the diagram is disabled once you change the query by hand.")
+    insert_at_cursor(fragment)
     return
    }
     let message=""
