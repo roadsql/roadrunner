@@ -3,15 +3,21 @@
   "questions":[
     {
       "text":"1. Show customers from the state of Utah.",
-      "script":"SELECT * FROM ...",
+      "script":"",
       "connectionName":"Redcat Shoes",
       "sheetname":"q1"
     },
     {
       "text":"2. Show Employees from Los Angeles.",
-      "script":"SELECT * FROM ...",
+      "script":"",
       "connectionName":"Redcat Shoes",
       "sheetname":"q2"
+    },
+    {
+      "text":"3. Show products that cost more than $50.",
+      "script":"",
+      "connectionName":"Redcat Shoes",
+      "sheetname":"q3"
     }
   ]
 }
